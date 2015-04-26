@@ -1,0 +1,3 @@
+@echo off
+echo Building OS/2 bindings and test program (wintest.exe)...
+gnatmake wintest.adb && emxbind -ep wintest
